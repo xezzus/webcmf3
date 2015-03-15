@@ -1,0 +1,22 @@
+<?php
+  self::$css[] = 'main';
+  self::$css[] = 'menuTop';
+  self::$css[] = 'page';
+  self::$js[] = 'jquery.min';
+  self::$js[] = 'cookie';
+  self::$js[] = 'fw';
+  $this->title[] = 'BEST TITLE';
+?>
+<!DOCTYPE html>
+<html>
+<head>
+  <title><!-- [title] --></title>
+</head>
+<body>
+<div class="menuTop">
+  <?php $this->menuTop(['/'=>'Главная','/test'=>'Тест','/registration'=>'Регистрация','/login'=>'Вход'])->html(); ?>
+</div>
+<div class="page"><!-- {page} --></div>
+
+</body>
+</html>

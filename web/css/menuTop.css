@@ -1,0 +1,13 @@
+.menuTop {
+  background:#333;
+}
+.menuTop a,.menuTop span {
+  padding:7px 14px 7px 14px;
+  display:inline-block;
+  background:#000;
+  color:#ccc;
+}
+.menuTop span {
+  background:#911713;
+  color:#fff;
+}

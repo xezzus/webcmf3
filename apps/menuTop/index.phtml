@@ -1,0 +1,7 @@
+<?php 
+$uri = \util\uri::get();
+foreach($this as $key=>$value){
+  if($key == $uri) echo '<span>'.$value.'</span>';
+  else echo '<a href="'.$key.'">'.$value.'</a>';
+}; 
+?>

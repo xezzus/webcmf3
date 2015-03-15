@@ -1,0 +1,26 @@
+<h1>Протестировать всё</h1>
+<h2>Тест методов с кешем (singleton)</h2>
+<div><div>Вызов 1</div><?php echo $this->singleton()->time; ?></div>
+<hr>
+<div><div>Вызов 2</div><?php echo $this->singleton()->time; ?></div>
+<hr>
+<div><div>Вызов 3</div><?php echo $this->singleton()->time; ?></div>
+<hr>
+<div><div>Вызов 4</div><?php echo $this->singleton()->time; ?></div>
+<hr>
+<div><div>Вызов 5</div><?php echo $this->singleton()->time; ?></div>
+<hr>
+<div><div>Вызов 6</div><?php echo $this->singleton()->time; ?></div>
+
+<h2>Тест методов без кеша (no singleton)</h2>
+<div><div>Вызов 1</div><?php echo $this->noSingleton()->time; ?></div>
+<hr>
+<div><div>Вызов 2</div><?php echo $this->noSingleton()->time; ?></div>
+<hr>
+<div><div>Вызов 3</div><?php echo $this->noSingleton()->time; ?></div>
+<hr>
+<div><div>Вызов 4</div><?php echo $this->noSingleton()->time; ?></div>
+<hr>
+<div><div>Вызов 5</div><?php echo $this->noSingleton()->time; ?></div>
+<hr>
+<div><div>Вызов 6</div><?php echo $this->noSingleton()->time; ?></div>
